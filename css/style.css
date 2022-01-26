@@ -1,0 +1,10 @@
+*{
+    margin : 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --my-font-size:16px;
+    --my-font-family:verdana,sans-serif;
+}
