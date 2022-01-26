@@ -101,3 +101,16 @@ tr:nth-last-child(3) :nth-last-child(3){
     background-color: orchid;  
 }
 /* 2nd last col --- 2nd last row */
+tr:nth-last-child(3) :nth-last-child(2){
+    background-color: slateblue;  
+}
+/* 4th last col & last 3rd row */
+
+/* pale pink  colros*/
+tr:nth-of-type(2) :nth-of-type(13),
+tr:nth-of-type(n+3):nth-of-type(-n+4) :nth-of-type(14),
+tr:nth-of-type(n+4):nth-of-type(-n+5) :nth-of-type(15),
+tr:nth-of-type(n+5):nth-of-type(-n+6) :nth-of-type(16)
+{
+    background-color: tomato;
+}
