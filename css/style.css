@@ -29,23 +29,35 @@ td:hover{
     transform: scale(1.5);
     transition: 0.5s;
 }
-/* 1st row */
+/* 1st row - 1st col */
 tr:nth-child(n +1):nth-child(-n +1) :nth-child(1) {
     background-color: yellow;
 }
-/* 2nd row */
+/* 1st col*/
 tr:nth-child(n +2):nth-child(-n +7) :nth-child(1){
     background-color: slateblue;
 }
-/* 3rd row */
+/* 2nd col */
 tr:nth-child(n+2):nth-child(-n+7) :nth-child(2){
     background-color: tan;
 }
-/* 4th row */
 
-/* 5th row */
-/* 6th row */
-/* 7th row */
+/* 4throw---3rd col till 7th row 12 col */
+tr:nth-child(n+4):nth-child(-n+7) :nth-child(n+3):nth-child(-n+12){
+    background-color: #74F2CC;
+}
+/* 6th row, 3rd col */
+tr:nth-child(n +6) :nth-child(3){
+    background-color: #35d1ec;
+} 
+/* 18th column */
+tr:nth-child(n + 1):nth-child(-n + 6) :nth-child(18){
+    background-color: violet;
+}
+/* 18th 7th row */
+tr:nth-child(n+7):nth-child(-n+7) :nth-child(18){
+    background-color: tan;
+}
 /* 8th row */
 tr:nth-child(n +8):nth-child(-n +14) :nth-child(n+2):nth-child(-n+15) {
     background-color: #35d1ec;
