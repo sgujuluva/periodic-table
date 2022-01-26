@@ -34,35 +34,70 @@ tr:nth-child(n +1):nth-child(-n +1) :nth-child(1) {
     background-color: yellow;
 }
 /* 1st col*/
-tr:nth-child(n +2):nth-child(-n +7) :nth-child(1){
+tr:nth-of-type(n+2) :nth-of-type(1){
     background-color: slateblue;
 }
 /* 2nd col */
-tr:nth-child(n+2):nth-child(-n+7) :nth-child(2){
+tr:nth-of-type(n+2):nth-of-type(-n+7) :nth-of-type(2){
     background-color: tan;
 }
 
 /* 4throw---3rd col till 7th row 12 col */
-tr:nth-child(n+4):nth-child(-n+7) :nth-child(n+3):nth-child(-n+12){
+
+tr:nth-of-type(n+4):nth-of-type(-n+7) :nth-of-type(-n+12) {
     background-color: #74F2CC;
 }
-/* 6th row, 3rd col */
-tr:nth-child(n +6) :nth-child(3){
-    background-color: #35d1ec;
-} 
-/* 18th column */
-tr:nth-child(n + 1):nth-child(-n + 6) :nth-child(18){
-    background-color: violet;
+tr:nth-last-of-type(3) td:nth-child(3){
+    background-color: #1e7a63;
+    transform: none;
 }
-/* 18th 7th row */
+tr:nth-last-of-type(4) td:nth-child(3){
+    background-color: #35d1ec;
+    transform: none;
+}
+ 
+/* 18th column - - last col */
+ tr:nth-of-type(n+1):nth-of-type(-n+6) :nth-of-type(18){
+    background-color:orchid;
+ }
+
+/* 18thcol 7th row */
 tr:nth-child(n+7):nth-child(-n+7) :nth-child(18){
     background-color: tan;
 }
+/* 17th row 6th col */
+tr:nth-of-type(n+2):nth-of-type(-n+6) :nth-of-type(17){
+    background-color:#FFB76A;
+ }
 /* 8th row */
-tr:nth-child(n +8):nth-child(-n +14) :nth-child(n+2):nth-child(-n+15) {
+
+tr:nth-last-of-type(2) {
     background-color: #35d1ec;
+  } 
+tr:nth-last-of-type(2) td:nth-child(1),td:nth-child(n+16):nth-child(-n+18){
+      background-color: white;
+      transform: none;
 }
 /* 9th row */
-tr:nth-child(n+ 9):nth-child(-n + 14)  :nth-child(n+2):nth-child(-n+15){
+
+tr:nth-last-of-type(1){
     background-color: #1e7a63;
 }
+tr:nth-last-of-type(1) td:nth-child(1){
+    background-color: white;
+    transform: none;
+}
+/* 3st last col with yellow */
+tr:nth-of-type(n+2):nth-of-type(-n+4) :nth-of-type(16),
+tr:nth-of-type(n+2):nth-of-type(-n+3) :nth-of-type(15),
+tr:nth-of-type(n+2):nth-of-type(-n+2) :nth-of-type(14)
+
+{
+    background-color: yellow;
+}
+
+/*3rd last col---3rd last row  */
+tr:nth-last-child(3) :nth-last-child(3){
+    background-color: orchid;  
+}
+/* 2nd last col --- 2nd last row */
