@@ -44,7 +44,7 @@ tr:nth-of-type(n+2):nth-of-type(-n+7) :nth-of-type(2){
 
 /* 4throw---3rd col till 7th row 12 col */
 
-tr:nth-of-type(n+4):nth-of-type(-n+7) :nth-of-type(-n+12) {
+ tr:nth-of-type(n+4):nth-of-type(-n+7) :nth-of-type(n+3):nth-of-type(-n+12) {
     background-color: #74F2CC;
 }
 tr:nth-last-of-type(3) td:nth-child(3){
@@ -54,7 +54,7 @@ tr:nth-last-of-type(3) td:nth-child(3){
 tr:nth-last-of-type(4) td:nth-child(3){
     background-color: #35d1ec;
     transform: none;
-}
+} 
  
 /* 18th column - - last col */
  tr:nth-of-type(n+1):nth-of-type(-n+6) :nth-of-type(18){
@@ -105,7 +105,9 @@ tr:nth-last-child(3) :nth-last-child(2){
     background-color: slateblue;  
 }
 /* 4th last col & last 3rd row */
-
+tr:nth-last-child(3) :nth-last-child(4){
+    background-color: #FFB76A;  
+}
 /* pale pink  colros*/
 tr:nth-of-type(2) :nth-of-type(13),
 tr:nth-of-type(n+3):nth-of-type(-n+4) :nth-of-type(14),
@@ -113,4 +115,11 @@ tr:nth-of-type(n+4):nth-of-type(-n+5) :nth-of-type(15),
 tr:nth-of-type(n+5):nth-of-type(-n+6) :nth-of-type(16)
 {
     background-color: tomato;
+}
+/* last 6th col */
+tr:nth-last-child(n+3):nth-last-child(-n+7) :nth-last-child(6),
+tr:nth-last-child(n+3):nth-last-child(-n+5) :nth-last-child(5),
+tr:nth-last-child(4) :nth-last-child(4)
+{
+    background-color:palevioletred ;
 }
