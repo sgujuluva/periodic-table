@@ -44,17 +44,18 @@ tr:nth-of-type(n+2):nth-of-type(-n+7) :nth-of-type(2){
 
 /* 4throw---3rd col till 7th row 12 col */
 
- tr:nth-of-type(n+4):nth-of-type(-n+7) :nth-of-type(n+3):nth-of-type(-n+12) {
+ tr:nth-of-type(n+4):nth-of-type(-n+7) :nth-of-type(n+4):nth-of-type(-n+12),
+ tr:nth-of-type(n+4):nth-of-type(-n+5) :nth-of-type(n+3){
     background-color: #74F2CC;
 }
-tr:nth-last-of-type(3) td:nth-child(3){
-    background-color: #1e7a63;
-    transform: none;
-}
-tr:nth-last-of-type(4) td:nth-child(3){
+
+tr:nth-last-child(4){
     background-color: #35d1ec;
-    transform: none;
-} 
+}
+ 
+tr:nth-last-child(3){
+    background-color: #1e7a63;
+}
  
 /* 18th column - - last col */
  tr:nth-of-type(n+1):nth-of-type(-n+6) :nth-of-type(18){
