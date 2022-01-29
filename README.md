@@ -19,6 +19,7 @@
 >
 > 1) **When a cell is hovered**, it is scaled 
 >  * This is acheived using the transform scale property 
+>
 > ![hovering image scaling](scaling-periodic.png)
 >
 >
