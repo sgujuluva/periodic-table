@@ -17,9 +17,9 @@
 >
 > *Features in this periodic table:*
 >
-> 1)**When a cell is hovered**, it is scaled 
-> * This is acheived using the transform scale property 
->
+> 1) **When a cell is hovered**, it is scaled 
+>  * This is acheived using the transform scale property 
+> ![hovering image scaling](scaling-periodic.png)
 > 2) *Used **Transition property** for smooth Transition between cells*
 >
 > 3) *Used **Border : none property** for empty cells*
