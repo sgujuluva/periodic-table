@@ -16,5 +16,6 @@
 | :nth-last-of-type() |selects elements based on their position among siblings of the same type (tag name), counting from the end. |
 >
 > *Features in this periodic table:*
-> **When a cell is hovered**, it is scaled*
-> * :This is acheived using the transform scale property*
+>
+> **When a cell is hovered**, it is scaled 
+> * This is acheived using the transform scale property *
