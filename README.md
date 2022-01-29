@@ -2,6 +2,8 @@
 
 >*In this periodic table,  colored it using the CSS **Pseudo-class** n-th type.*
 >
+>![periodic table](periodictable-md.png)
+>
 >*The list of nth type Pseudo-class used:*
 >
 | Pseudo-class   | Description |
