@@ -8,7 +8,7 @@
 | -------------- | ------------|
 | :nth-of-type() | selects elements based on their position among siblings of the same type |
 | :nth-child() | selects elements based on their position among a group of siblings |
-| :nth-of-type() | selects elements based on their position among siblings of the same type (tag name), counting from the end. |
 | :nth-last-child() | selects elements based on their position among a group of siblings, counting from the end |
 | :first-child | selects the first element among a group of sibling elements |
-| :nth-of-type() | selects elements based on their position among siblings of the same type |
+| :last-child  |selects the last element among a group of sibling elements |
+| :nth-last-of-type() |selects elements based on their position among siblings of the same type (tag name), counting from the end. |
